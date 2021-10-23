@@ -3783,8 +3783,20 @@ li.has-dropdown>ul.dropdown-menu>li.dropdown-submenu>a:before,ul.dropdown-menu>l
     .mega-dropdown-menu ul li a i{
         margin-right:8px
     }
+    .tp-caption .slide--bio{
+        white-space: normal !important;
+        min-width: 300px !important
+    }
 }
 @media only screen and (min-width:320px) and (max-width:767px){
+    .header .navbar{
+        min-height: auto !important;
+    }
+    .header .navbar .logo img {
+        height: 50px;
+        display: block;
+       margin: 10px 0;
+    }
     .header .container{
         padding-right:0;
         padding-left:0
@@ -3794,7 +3806,8 @@ li.has-dropdown>ul.dropdown-menu>li.dropdown-submenu>a:before,ul.dropdown-menu>l
         border-bottom:1px solid rgba(255,255,255,.1)
     }
     .navbar-toggle{
-        margin-right:6px
+        margin-right:6px;
+        margin-top: 16px !important;
     }
     .affix .navbar-toggle,.header-light .navbar-toggle,.navbar-toggle-dark{
         border-color:#fff
